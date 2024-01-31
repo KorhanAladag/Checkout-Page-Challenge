@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="./images/devchallenges.png">
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Checkout Page</title>
+
+    
+  </head>
+  <body>
+    <div class="container">
+
+      <header><h1 class="heading">Checkout</h1></header>
+
+      <main>
+        <form class="information" id="myForm">
+          <div>
+            <h4 class="contact-information">Contact Information</h4>
+
+            <div class="info-box">
+              <label for="e-mail">E-mail</label>
+              <div class="inputs">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="style=fill"> <g id="email"> <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M7 2.75C5.38503 2.75 3.92465 3.15363 2.86466 4.1379C1.79462 5.13152 1.25 6.60705 1.25 8.5V15.5C1.25 17.393 1.79462 18.8685 2.86466 19.8621C3.92465 20.8464 5.38503 21.25 7 21.25H17C18.615 21.25 20.0754 20.8464 21.1353 19.8621C22.2054 18.8685 22.75 17.393 22.75 15.5V8.5C22.75 6.60705 22.2054 5.13152 21.1353 4.1379C20.0754 3.15363 18.615 2.75 17 2.75H7ZM19.2285 8.3623C19.5562 8.10904 19.6166 7.63802 19.3633 7.31026C19.1101 6.98249 18.6391 6.9221 18.3113 7.17537L12.7642 11.4616C12.3141 11.8095 11.6858 11.8095 11.2356 11.4616L5.6886 7.17537C5.36083 6.9221 4.88982 6.98249 4.63655 7.31026C4.38328 7.63802 4.44367 8.10904 4.77144 8.3623L10.3185 12.6486C11.3089 13.4138 12.691 13.4138 13.6814 12.6486L19.2285 8.3623Z" fill="#808080"></path> </g> </g> </g></svg>
+                <input type="email" id="email" placeholder="Enter your email..." required>
+              </div>
+            </div>
+
+            <div class="info-box"> 
+              <label for="phone">Phone</label>
+              <div class="inputs">
+                <svg class ="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#131010"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.15" d="M20.9995 16.4767V19.1864C21.0037 20.2223 20.0723 21.0873 19.0265 20.9929C10.0001 21 3.00006 13.935 3.00713 4.96919C2.91294 3.92895 3.77364 3.00106 4.80817 3.00009H7.52331C7.96253 2.99577 8.38835 3.151 8.72138 3.43684C9.66819 4.24949 10.2772 7.00777 10.0429 8.10428C9.85994 8.96036 8.99696 9.55929 8.41026 10.1448C9.69864 12.4062 11.5747 14.2785 13.8405 15.5644C14.4272 14.9788 15.0274 14.1176 15.8851 13.935C16.9855 13.7008 19.7615 14.3106 20.5709 15.264C20.858 15.6021 21.0105 16.0337 20.9995 16.4767Z" fill="#919191"></path> <path d="M20.9995 19.1864V16.4767C21.0105 16.0337 20.858 15.6021 20.5709 15.264C19.7615 14.3106 16.9855 13.7008 15.8851 13.935C15.0274 14.1176 14.4272 14.9788 13.8405 15.5644C11.5747 14.2785 9.69864 12.4062 8.41026 10.1448C8.99696 9.55929 9.85994 8.96036 10.0429 8.10428C10.2772 7.00777 9.66819 4.24949 8.72138 3.43684C8.38835 3.151 7.96253 2.99577 7.52331 3.00009H4.80817C3.77364 3.00106 2.91294 3.92895 3.00713 4.96919C3.00006 13.935 10.0001 21 19.0265 20.9929C20.0723 21.0873 21.0037 20.2223 20.9995 19.1864Z" stroke="#919191" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                <input type="number" id="phone" placeholder="Enter your phone..." required>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="shipping-address">Shipping address</h4>
+
+            <div class="info-box">
+              <label for="fullname">Full Name</label>
+              <div class="inputs">
+                <svg class="icon" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#8c8c8c" d="M9 0a9 9 0 0 0-9 9 8.654 8.654 0 0 0 .05.92 9 9 0 0 0 17.9 0A8.654 8.654 0 0 0 18 9a9 9 0 0 0-9-9zm5.42 13.42c-.01 0-.06.08-.07.08a6.975 6.975 0 0 1-10.7 0c-.01 0-.06-.08-.07-.08a.512.512 0 0 1-.09-.27.522.522 0 0 1 .34-.48c.74-.25 1.45-.49 1.65-.54a.16.16 0 0 1 .03-.13.49.49 0 0 1 .43-.36l1.27-.1a2.077 2.077 0 0 0-.19-.79v-.01a2.814 2.814 0 0 0-.45-.78 3.83 3.83 0 0 1-.79-2.38A3.38 3.38 0 0 1 8.88 4h.24a3.38 3.38 0 0 1 3.1 3.58 3.83 3.83 0 0 1-.79 2.38 2.814 2.814 0 0 0-.45.78v.01a2.077 2.077 0 0 0-.19.79l1.27.1a.49.49 0 0 1 .43.36.16.16 0 0 1 .03.13c.2.05.91.29 1.65.54a.49.49 0 0 1 .25.75z"></path> </g></svg>                
+                <input type="text" id="full-name" value="Rodney Cotton">
+              </div>  
+            </div>
+
+            <div class="info-box">
+              <label for="address">Address</label>
+              <div class="inputs">
+                <svg class="icon" fill="#000000" viewBox="0 0 24 24" id="home-alt-3" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon flat-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="primary" d="M21.71,11.29l-9-9a1,1,0,0,0-1.42,0l-9,9a1,1,0,0,0-.21,1.09A1,1,0,0,0,3,13H4v7.3A1.77,1.77,0,0,0,5.83,22H8.5a1,1,0,0,0,1-1V16.1a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1V21a1,1,0,0,0,1,1h2.67A1.77,1.77,0,0,0,20,20.3V13h1a1,1,0,0,0,.92-.62A1,1,0,0,0,21.71,11.29Z" style="fill: #949494;"></path></g></svg>
+                <input type="text" id="address" placeholder="Your address..." required>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <label for="city">City</label>
+              <div class="inputs">
+                <svg class="icon" fill="#808080" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 209" enable-background="new 0 0 256 209" xml:space="preserve" stroke="#808080"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M246.125,195.063v-82.688h-63v82.688h-7.875V17.823h-23.625V2.125h-47.25v15.698H80.75v177.24h-7.875V80.875h-63v114.188H2 v11.813h252v-11.813H246.125z M47.281,177.344H35.469v-11.813h11.813V177.344z M47.281,145.844H35.469v-11.813h11.813V145.844z M47.281,114.344H35.469v-11.813h11.813V114.344z M119.141,174.391h-11.813v-11.813h11.813V174.391z M119.141,142.891h-11.813 v-11.813h11.813V142.891z M119.141,111.391h-11.813V99.578h11.813V111.391z M119.141,79.891h-11.813V68.078h11.813V79.891z M150.641,174.391h-11.813v-11.813h11.813V174.391z M150.641,142.891h-11.813v-11.813h11.813V142.891z M150.641,111.391h-11.813 V99.578h11.813V111.391z M150.641,79.891h-11.813V68.078h11.813V79.891z M220.531,177.344h-11.813v-11.813h11.813V177.344z M220.531,145.844h-11.813v-11.813h11.813V145.844z"></path> </g></svg>
+                <input type="text" id="city" placeholder="Your city..." required>
+              </div>
+            </div>
+
+            <div class="address-flex">
+              <div style="width: 50%;">
+                <label for="country">Country</label>
+                <div class="inputs dropdown">
+                  <svg class="icon mobile-control" fill="#808080"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" stroke="#808080"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M93.8,114.6c-4.7,1.1-1.7,0.9-5.6,1.4C71.5,119.6,83.9,122.8,93.8,114.6z M387.5,121.3c1.2-0.8,5.4-4.9-7.7-8.9 c0.8,4.1-2.7,3.7-2.7,6c9.7,8.8,13.7,24.1,26.1,27.3C405.6,134.7,392.2,129.3,387.5,121.3z M84.9,111.4c1.5,8.9,8.2-9.4,8.3-15.9 c-2.6,1.5-5.2,3-7.9,4.2c6.3,3.2,0.8,6.6-6,11.7C65.5,128.6,92.2,98,84.9,111.4z M256,0C114.6,0,0,114.6,0,256 c0,141.3,114.6,256,256,256c141.4,0,256-114.7,256-256C512,114.6,397.4,0,256,0z M262.8,85.8l1.2,0.4c-4.8,6.2,25,24.3,3.6,25.8 c-20,5.7,8.4-5.2-7.1-3.3C268.7,97.3,254,97.1,262.8,85.8z M141.4,102.2c-7.2-6-29.8,8.2-21.9,4.8c19.6-7.7,1.3,0.8,5.9,10 c-4.2,8.7-1.4-8.6-11.8,1.7c-7.5,1.7-25.9,18.7-23.6,13.5c-0.6,8.1-21.9,17.7-24.8,31.2c-7,18.7-1.7-0.7-3-8 c-10-12.7-28.2,21.5-22.8,35c9.1-16,8.4-1.7,1.8,5.4c6.7,12.3-6.1,28.3,6.6,37.4c5.6,1.3,16.8-18.8,11.9,2.1 c3.4-18.1,9.4,4.3,19.1-0.7c0.6,9.5,6.5,5.1,7.8,16.6c16.2-1.2,31,26.2,11.7,31.4c2.9-0.8,8.6,4.3,15.2,0.4 c11.2,8.9,40.7,10,41.5,32c-20.3,9.7-5,36.3-22.6,45.8c-20.2-3-6.9,24.9-15.4,21.7c3.4,20.1-20.4-2.6-11.2,8.5 c16.9,10.4-7.4,8.3,0.2,15.9c-8.5-1.8,5.3,15.8,7.6,22.3c12.2,19.8-10.5-4.4-17.2-11c-6.4-12.8-21.5-37.3-25.7-57.4 c-2.4-29.2-25-48.8-30.2-77.3c-5.2-15.9,14.3-41.4,3.8-50.3c-9.1-7.1-5.4-31.4-10.8-44.2c13.5-58.5,56.4-107.8,107.9-137 c-5.3,3.9,30.3-10.1,26.2-6.7c-1.1,2.5,20.8-9.5,34-11.3c-1.4,0.2-34.3,12-25.2,10.4c-14.1,6.9-1.4,3,5.6-0.5 c-14,10.3-24.8,7.4-40.7,16.5c-16,4.2-12.7,20.8-24.1,29.1c6.7,1.2,23.5-17.3,33.3-23.8c22.5-10.9-11.4,19.8,10,6.6 c-7.2,6.7-5.7,17.4-10.1,20.4C148.2,92.1,159.1,97.9,141.4,102.2z M176.4,56.2c-2.3,3.1-5.5,9.8-7.4,5.7c-2.6,1.3-3.6,6.9-8.5,2.4 c2.9-2.1,5.9-7.1,0.2-4c2.6-2.8,25.8-10.7,24.5-13.7c4.1-2.6,3.7-3.9-1-2.3c-2.4-0.8,5.7-7.6,16.5-8.5c1.5,0,2.1,1-0.6,0.7 c-16.3,5-9.3,3.6,1.7,0c-4.2,2.4-7.1,3.1-7.8,4.2c11-4-0.6,2.9,1.9,2.4c-3.1,1.6,0.5,2.1-5.5,4.4c1.1-0.9-9.8,6.5-3.3,4.3 C180.8,57.8,178,57.9,176.4,56.2z M186,70.5c0.2-9.6,14-15.7,12.3-16.2c17-8-5.9,0.3,7.5-6.9c5-0.5,15.6-16.5,30.3-17.5 c16.2-4.9,8.7,0.3,20.7-4.3l-2.4,2c-2.1,0.3,0.5,4-7.1,9.6c-0.8,8.7-14.5,4.7-7.7,14c-4.4-6.3-11-0.2-2.7,0.4 c-8.9,6.8-29.6,8-39.5,19.3C191,80.1,185.1,77.2,186,70.5z M257.1,102.5c-6.8,16.4-13.4-2.4-1.4-5.4 C258.7,98.7,259.9,99.2,257.1,102.5z M231.5,69.7c-2-7.4-0.4-3.5,11.5-7C251.2,68.6,235.7,72.5,231.5,69.7z M417.7,363.2 c-9.4-16.2,11.4-31.2,18.4-44.8C435.2,334.3,433.2,350,417.7,363.2z M453.1,178.1c-10.2,0.8-19.4,3.2-28.6-2.6 c-21.2-23.2,3.9,26.2,10.9,6c25.2,9.6-0.4,51-16.3,46.7c-8.9-19.2-19.9-40.3-39.3-49.7c14.9,16.5,22.3,36.8,38.3,51.7 c1.1,20.8,22.2-7.6,20.9,8.5c2,27.7-31.3,44.3-25.5,72.1c12.4,25.3-23.9,29.9-19.8,52.6c-14.6,16.3-30.2,38.3-56.4,34.8 c0-13.8-7-25.5-8.6-39.7c-14.2-18,15-37.3-3.1-56.1c-20.9-4.7,4.3-33.5-17.2-30.8c-12.9-12.9-31.8-0.4-50.3-0.3 c-23.2,2.2-47.1-28.5-36.8-50.2c-8.2-22.6,26-29.2,26.9-49.1c16.4-13.7,39.7-12,61.9-15.2c-1.6,15.9,15.2,16,27.9,21.3 c7.1-17.2,29.2,2.8,44.3-8.1c5.2-25.4-14.7-10.1-26.1-18.2c-13.8-20.2,29.5-10.4,25-21c-16.8-0.1-7.3-20.7-19.2-9.2 c10.7,1.9-1.9,10.3-1.6,0.7c-16.2-4.7-0.6,18.4-8.8,20.6c-12.5-5.2-6.6,5.9-5.3,7.6c-5.4,11.7-12-17.2-27.3-16.4 c-15.2-13.9-6,6.3,7.2,9.6c-2.8,0.8,1.6,12.3-1.9,7.4c-10.9-15-31.6-25-43.9-6.6c-1.3,17.2-36.3,22.1-30.7,2 c-8.2-20.8,25.4-0.6,22.3-17.2c-21.6-14.3,5.9-9.7,13.2-23.1c16.6,0.5,0.7-13.6,8.5-17.7c-0.8,15.3,12.7,12.4,23.4,9.5 c-2.6-8.8,6.4-8.5,0.9-15.8c24.8-9.9-18.9,4.6-10.1-17.1c-10.7-7.4-4.5,16.3,0,18.8c0.3,7.3-5.9,16.3-14.4,1 c-12.4,8.1-11.1-8.2-11.9-6.5c-1.4-6.3,9.4-6.6,9.5-17.6c-0.9-7-0.7-10.7,4.3-11.1c0.4,1,20.5,1.3,27.6,9.6 c-19.4-3.9-2.9,3.2,5.8,7.2c-9.3-7.3,3.7,0-3.9-8.3c3,0.6-8.3-11.4,3.3-0.9c-6.3-7.5,12.3-5.3,1.3-10.9c16.1,4.5,6.6,0.4-2.9-3.7 c-26.2-15.6,46.3,21.1,16.7,4.8c18.9,4.1-40.4-14.6-13.4-6.4c-10.3-4.5-0.3-2,9,0.9c-16.7-5.2-41.7-14.9-40.7-15.3 c5.8,0.4,11.5,1.7,17,3.3c17.1,5.1-4.9-1.2-0.2-1.1C373.8,44,425.3,83.4,456.6,134.9c7.3,7.7,27.2,58.6,16.8,36 c4.7,18,5.4,37.4,7.9,55.8c-5.2-5.8-11-27.2-16-39.1C463.2,192.2,460.8,181.1,453.1,178.1z"></path> </g></svg>
+                  <select id="country">
+                    <option selected>Your country...</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Finland">Finland</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Peru">Peru</option>
+                </select>
+                </div>
+              </div>
+
+              <div style="margin-left: 1.6em;">
+                <label for="postal">Postal Code</label>
+                <div class="inputs">
+                  <svg class="icon" fill="#808080"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.999 511.999" xml:space="preserve" stroke="#808080"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M439.551,68.465c0.708-7.046-3.06-13.559-9.135-16.595L330.246,1.786c-11.211-5.599-24.161,2.682-24.161,14.932v50.085 H189.221c-0.19,0-0.375,0.022-0.563,0.028c-46.263,0.396-82.766,37.773-82.911,83.179l-0.514,16.962H55.661 c-9.206,0-16.695,7.537-16.695,16.695V311.66H22.271c-9.22,0-16.695,7.475-16.695,16.695s7.475,16.695,16.695,16.695 c11.143,0,273.899,0,283.814,0v150.254c0,9.22,7.475,16.695,16.695,16.695h66.78c9.22,0,16.695-7.475,16.695-16.695V345.05h50.085 c0.003,0,0.006,0,0.009,0c30.564-0.01,50.071-36.191,50.073-61.102l0.003-133.672C506.424,109.932,477.653,76.186,439.551,68.465z M339.474,43.731l46.144,23.071l-46.144,23.072V43.731z M207.343,200.362l-51.512,40.064l-51.513-40.064H207.343z M239.305,311.661H72.355v-93.86l73.225,56.953c6.029,4.69,14.471,4.689,20.499,0l73.225-56.953V311.661z M239.305,166.972 H138.637c0.013-0.415,0.499-16.279,0.499-16.695c0-27.355,22.131-50.114,50.07-50.085c0.004,0,0.01,0,0.014,0h0.292 c29.8,0.203,49.793,25.975,49.793,53.657V166.972z M372.864,478.611h-33.39V345.051h33.39V478.611z M473.03,283.947 c-0.001,11.964-10.502,27.715-16.695,27.715H272.695c0-2.706,0-156.026,0-157.812c0-19.982-6.606-38.727-17.721-53.657h51.111 c0,12.778,0,102.482,0,116.864c0,9.22,7.475,16.695,16.695,16.695s16.695-7.475,16.695-16.695v-89.852l54.025-27.012h29.45 c27.617,0,50.085,22.468,50.085,50.085L473.03,283.947z"></path> </g> </g> </g></svg>
+                  <input type="number" class="inputText" id="postal" placeholder="Your postal code..." required>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkbox-flex"> 
+            <div class="text-placement">
+              <input class="checkbox" type="checkbox">
+              <label class="save-text">Save this information for next time</label>
+            </div>
+            <button class="continue-btn" type="submit" class="btn" onclick="submitForm()">Continue</button>  
+          </div>
+        </form>
+
+        <div class="price-part">
+          <div class="product-container">
+            <div class="products-handle">
+              <div class="product">
+                <img class="product-img" src="./images/photo1.png" alt="backpack image">
+                <div class="product-info">
+                  <div>
+                    <p>Vintage Backbag</p>
+                    <div class="price">
+                      <div><p class="discount">$54.99</p></div>
+                      <div><p class="no-discount">$94.99</p></div>
+                    </div>
+                  </div>
+                  <div class="quantity">
+                    <button class="minus1" onclick="decrement('myInput')">–</button>
+                    <input class="quantity-input" id="myInput" min="1" max="100" type="number" value="1">
+                    <button class="plus1" onclick="increment('myInput')">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <img class="product-img" src="./images/photo2.png" alt="shoes image">
+                <div class="product-info">
+                  <div>
+                    <p>Levi Shoes</p>
+                    <div class="price">
+                      <div><p class="discount">$74.99</p></div>
+                      <div><p class="no-discount">$124.99</p></div>
+                    </div>
+                  </div>
+                  <div class="quantity">
+                    <button class="minus1" onclick="decrement('myInput2')">–</button>
+                    <input class="quantity-input" id="myInput2" min="1" max="100" type="number" value="1">
+                    <button class="plus1" onclick="increment('myInput2')">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <hr>
+              <div class="total-flex">
+                <p>Shipping</p>
+                <p>$19</p>
+              </div>
+              <hr>
+              <div class="total-flex">
+                <p>Total</p>
+                <p>$148.98</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <p class="footer">created by <strong>Korhan Aladağ</strong> - devChallenges.io</p>
+    <script src="index.js"></script>
+  </body>
+</html>
